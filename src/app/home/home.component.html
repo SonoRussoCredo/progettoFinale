@@ -1,0 +1,36 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<div class="total">
+    <div class="background">
+        <h2 class="asfg">Vuoi un fantastico sito?</h2>
+        <h2> Non chiamare Denis Babin!</h2>
+            <h1>Ma puoi chiamare Babinciello Industries!</h1>
+                <p>Abbiamo un sacco di belle opportunità e occasioni: nuovi siti, gestione cloud, developer esperti a tua totale disposizione, volendo possiamo anche farti la spesa, basta che c'è lo chiedi :)</p>
+                <p>Ti starai sicuramente chiedendo quanto costino i nostri servizi? Mandaci la tua e-mail, ti manderemo direttamente ogni tipo di costo/servizio</p>
+        <input type="email" placeholder="Inserisci la tua e-mail" class="btcEmail">
+        <br>
+            <button type="button" class="btn btn-secondary" id="btc2">Tenetevi pure i miei dati (anche i segreti)</button>
+        <h3>Hai bisogno di aiuto? Non preoccuparti! In fondo troverai tutti i nostri dati, ti ricontatteremo immediatamente!</h3>
+
+        <div class="container">
+            <div class="row">
+                    <div class="az col-4">
+                        <h3>Non ti sei ancora registrato? Fallo subito!</h3>
+                        <a type="button" [routerLink]="'/signup'" class="nav-link btn btn-danger">Signup</a>
+                    </div>
+                    <div class="az col-4">
+                        <h3>Devi accedere ai nostri servizi? Ecco:</h3>
+                        <a type="button" [routerLink]="'/login'" class="nav-link btn btn-danger" *ngIf="!authService.isLogged">Login</a>
+                    </div>
+                    <div class="az col-4">
+                        <h3>Ci devi abbandonare spezzandoci il cuore?</h3>
+                        <a type="button" (click) = "logout()" *ngIf="authService.isLogged" class="nav-link btn btn-danger">Logout</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>

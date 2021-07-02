@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.form-container{
+    display: block;
+    margin: auto;
+    font-family: 'Pacifico';
+    background-image: url("../../assets/5.jpg");
+    color:white;
+    padding-top: 280px;
+    padding-bottom: 280px;
+    padding-left: 750px;
+    text-shadow: -3px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+}
+
+.alert{
+    margin: 20px;
+}
+
+label{
+    margin:20px;
+    font-size: 2.3rem;
+}
+
+button{
+    margin:20px;
+    font-size: 2.3rem;
+    display: block;
+    margin-right: 9000px;
+}
+
+button:hover{
+    color:gold;
+    text-shadow: 3px 3px;
+}
+
+#password{
+    padding:10px;
+    margin: 20px;
+}
+
+#username{
+    padding:10px;
+    margin: 20px;
+}

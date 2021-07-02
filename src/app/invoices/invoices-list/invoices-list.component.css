@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Pacifico';
+    background-image: url("./5.jpg");
+}
+
+table{
+    color:white;
+    font-size: 1.3rem;
+    text-shadow: -1px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+}
+
+label{
+    color:white;
+    font-size: 1.3rem;
+    text-shadow: -1px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+}
+
+span{
+    color:white;
+    font-size: 1.3rem;
+    text-shadow: -1px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+}
+
+option{
+    color:white;
+    font-size: 1.3rem;
+    text-shadow: -1px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+}
+
+button{
+    font-size: 1.5rem;
+    margin:10px;
+}
+
+button:hover{
+    color:gold;
+    text-shadow: 3px 3px;
+}

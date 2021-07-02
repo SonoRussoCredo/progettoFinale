@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.background{
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-family: 'Pacifico';
+}
+
+.az{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: -1px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+}
+
+a{
+    margin: auto;
+    width: 50%; 
+}
+
+.total{
+    background-image: url("../../assets/5.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: -3px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+}
+
+h1, h2{
+    padding: 25px;
+}
+
+.nav-link{
+    background-image: url("../../assets/2.jpg");
+}
+
+#btc2{
+    background-image: url("../../assets/2.jpg");
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+.asfg{
+    padding-top: 25px;
+}
+
+p{
+    font-size: 2rem;
+    padding-top: 25px;
+    margin:30px;
+}
+
+button, input{
+    font-size: 1.5rem;
+}
+
+button{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-bottom: 75px;
+}
+
+.container{
+    padding-bottom: 50px;
+}

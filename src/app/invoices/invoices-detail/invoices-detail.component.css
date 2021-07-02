@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+    font-family: 'Pacifico';
+    background-image: url("./5.jpg");
+    color:white;
+    font-size: 1.4rem;
+    padding: 20px;
+    text-shadow: -1px 0 #2535be, 0 2px #2535be, 2px 0 #2535be, 0 -3px #2535be;
+  }
+
+  label{
+      margin: 20px;
+      padding: 20px;
+  }
+  
